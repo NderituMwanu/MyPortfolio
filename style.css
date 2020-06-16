@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+.nav-item{
+    color:olive;
+    font-size: larger;
+    letter-spacing: 10px;
+}
+
+
+p{
+    text-align: center;
+    padding-top: 4%;
+    font-family: 'Staatliches', cursive;
+    font-size: 250%;
+    letter-spacing: 2px;
+    line-height: 200%;
+}
+
+ul{
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 4%;
+}
+
+.carousel-item{
+    height: 20%;
+    width: 20%;
+    margin-left: 40%;
+    
+}
+
+span{
+    font-size:170%;
+}
+
+h4{
+    font-size: 100%;
+    padding-top: 4%;
+    line-height: 150%;
+}
+
+h5{
+    padding-top: 4%;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+    line-height: 200%;
+}
+
+
+h6{
+    text-align: center;
+    line-height: 200%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    text-align: center;
+    padding-top: 2.5%
+}
+
+footer{
+    text-align: center;
+    padding-bottom: 5%;
+    background-color: whitesmoke;
+}
+  
+.leftside, .rightside{
+    height: 70vh;
+    width:100%
+}
+  
+
+@media screen and (min-width:768px)
+{
+    .leftside, .rightside{
+        height: 60vh;
+    }
+
+}    
+
+
+
+.leftside{
+    background: whitesmoke;
+}
+  
+.rightside{
+    background: whitesmoke;
+}
+
+.round{
+    border-radius: 50%;
+    padding:1px;
+    border: 3px solid olive;
+    background: linear-gradient(60deg, #EFA51A 10%, #ce00 100) ;
+}
+
+.card-deck{
+    padding-top: 4%;
+}
+
+.button {
+    animation: glowing 1300ms infinite;
+  }
+  
+  .bnr-icons{
+      color:olive;
+      font-size: 50px;
+  }
+
+  .card-title{
+      color:olive
+  }
