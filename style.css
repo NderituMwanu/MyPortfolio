@@ -25,6 +25,137 @@ ul{
     padding-bottom: 4%;
 }
 
+
+li{
+    position:relative;
+    list-style: none;
+    
+    font-weight: 500;
+}
+
+#list{
+    position:relative;
+    list-style: none;
+    margin: 50px 0;
+    font-weight: 500;
+}
+
+#list:before {
+    content: "";
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 100%;
+    height: 15px;
+    background-color:whitesmoke;
+    border-radius: 1000px;
+}
+
+#list:after {
+    content: "";
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 0;
+    height: 15px;
+    background-color:olive;
+    border-radius: 1000px;
+    animation-duration: .7s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+/* skillbar animations */
+
+#list.html:after {
+    animation-name: html
+}
+
+@keyframes html{
+    to{
+        width: 98%;
+    }
+}
+
+
+#list.css:after {
+    animation-name: css
+}
+
+@keyframes css{
+    to{
+        width: 95%;
+    }
+}
+
+#list.django:after {
+    animation-name: django
+}
+
+@keyframes django{
+    to{
+        width: 80%;
+    }
+}
+
+
+#list.flask:after {
+    animation-name: flask
+}
+
+@keyframes flask{
+    to{
+        width: 80%;
+    }
+}
+
+
+#list.angular:after {
+    animation-name: angular
+}
+
+@keyframes angular{
+    to{
+        width: 95%;
+    }
+}
+
+
+#list.javascript:after {
+    animation-name: javascript
+}
+
+@keyframes javascript{
+    to{
+        width: 80%;
+    }
+}
+
+
+#list.jquery:after {
+    animation-name: jquery
+}
+
+@keyframes jquery{
+    to{
+        width: 80%;
+    }
+}
+
+
+#list.python:after {
+    animation-name: python
+}
+
+@keyframes python{
+    to{
+        width: 90%;
+    }
+}
+
+
+/* Sliding Images */
+
 .carousel-item{
     height: 20%;
     width: 20%;
@@ -64,11 +195,12 @@ h1{
 footer{
     text-align: center;
     padding-bottom: 5%;
+    
     background-color: whitesmoke;
 }
   
 .leftside, .rightside{
-    height: 70vh;
+    height: 50vh;
     width:100%
 }
   
@@ -76,7 +208,7 @@ footer{
 @media screen and (min-width:768px)
 {
     .leftside, .rightside{
-        height: 60vh;
+        height: 50vh;
     }
 
 }    
@@ -114,3 +246,4 @@ footer{
   .card-title{
       color:olive
   }
+
