@@ -157,6 +157,16 @@ li{
     }
 }
 
+#list.react:after {
+    animation-name: react
+}
+
+@keyframes react{
+    to{
+        width: 80%;
+    }
+}
+
 
 /* Sliding Images */
 
